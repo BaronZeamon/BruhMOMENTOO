@@ -26,6 +26,17 @@
 
 section{
     font-size: 20px;
-    padding: 300px 0;
-    background-image: url(galina.jpg);
+    padding: 150px 0;
+    background-color: #cedbee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.galinha-imagem{
+    width: 40%;
+}
+
+.texto{
+    width: 40%;
 }

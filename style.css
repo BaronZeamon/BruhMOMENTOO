@@ -4,8 +4,12 @@
 }
 
 
+body{
+    font-family: 'Nova Oval', sans-serif;
+    font-weight: bold;
+}
 .cabecalho{
-    background-color: #363557;
+    background-color: #5a5980;
     color: white;
     display: flex;
     justify-content: space-around;
@@ -22,6 +26,7 @@
     margin-top: 16px;
     margin-right: 16px;
     font-size: 30px;
+    text-decoration: none;
 }
 
 section{
@@ -35,8 +40,21 @@ section{
 
 .galinha-imagem{
     width: 40%;
+    position: absolute;
+    padding-right: 600px;
 }
 
 .texto{
     width: 40%;
+    position: absolute;
+    padding-left: 700px;
+}
+
+.meio{
+    padding: 250px;
+}
+
+.rodape{
+    background-color: rgb(61, 61, 61);
+    text-align: center;
 }
